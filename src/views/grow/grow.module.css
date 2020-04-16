@@ -1,0 +1,7 @@
+.board {
+    display: flex;
+    padding: 2rem 1rem;
+}
+.column {
+    margin: 1rem;
+}

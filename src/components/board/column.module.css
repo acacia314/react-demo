@@ -1,0 +1,22 @@
+.column {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightblue;
+    width: 250px;
+    position: relative;
+}
+.name {
+    font-size: 1.5rem;
+}
+
+.quantity {
+    font-size: 1rem;
+    color: gray;
+}
+
+.newButton {
+position: absolute;
+right: 0;
+top: 0;
+transform: translate(10%, -50%);
+}

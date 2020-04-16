@@ -1,0 +1,31 @@
+.columnGroup {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+    position: relative;
+}
+.name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.columnItem {
+    padding-left: 5px;
+}
+.topButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(10%, -50%);
+    color: white;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.topButton:hover {
+    background: darkgreen
+}
