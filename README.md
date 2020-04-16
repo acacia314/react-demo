@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-First run `npm install`, thennpm you can run:
+First run `npm install`, then you can run:
 
 ### `npm start`
 
@@ -30,12 +30,15 @@ You will also see any lint errors in the console.
 - Organized and modularized solution structure
 
 ## Todo
-- Currently destination rooms for new clones and plants are hardcoded, add the ability to select the target room
 - Demonstrate use of async functions by create a mock api for existing create actions
   - Update modals to show spinning button and wait for success to close
 - Add testing with Jest
 - Use Redux (hooks and context work great so far for centralized state, but just for experience)
 - Hook up a router and add another page
-
+- Add some local data persistance
+- input validation on forms
+- Destination rooms for new clones and plants are hardcoded, add the ability to select the target room
+- 
 ## Known Bugs
 - Modals will save changes no matter how you dismiss them
+- no validation on form input, you can enter in numbers greater than current supply or negative numbers
