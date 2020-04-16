@@ -23,7 +23,7 @@ A minimal grow process board with two stages
   - Normalized data using normalizr
   - Actions to create clones, plants, and show/hide the modal
 - Abstracted components for board collumns and modals
-- Typescript with minimal usage of <any>
+- Typescript with minimal usage of any
 - Organized and modularized solution structure
 
 ## Todo
