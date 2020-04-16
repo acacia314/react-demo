@@ -35,6 +35,7 @@ You will also see any lint errors in the console.
   - Update modals to show spinning button and wait for success to close
 - Add testing with Jest
 - Use Redux (hooks and context work great so far for centralized state, but just for experience)
+- Hook up a router and add another page
 
 ## Known Bugs
 - Modals will save changes no matter how you dismiss them
